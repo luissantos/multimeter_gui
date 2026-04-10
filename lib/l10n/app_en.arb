@@ -1,0 +1,111 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "OWON B41T",
+  "@appTitle": { "description": "Application and default device name." },
+
+  "scanScreenTitle": "OWON B41T — Scan",
+  "@scanScreenTitle": { "description": "Title shown in the scanner screen app bar." },
+
+  "buttonScan": "Scan",
+  "@buttonScan": { "description": "Label on the scan action button when idle." },
+
+  "buttonScanning": "Scanning...",
+  "@buttonScanning": { "description": "Label on the scan action button while a scan is running." },
+
+  "buttonConnect": "Connect",
+  "@buttonConnect": { "description": "Label on the connect button in the device list." },
+
+  "buttonDisconnect": "Disconnect",
+  "@buttonDisconnect": { "description": "Label on the disconnect button in the multimeter screen." },
+
+  "buttonRename": "Rename",
+  "@buttonRename": { "description": "Label on the confirm button inside the rename dialog." },
+
+  "buttonCancel": "Cancel",
+  "@buttonCancel": { "description": "Label on dialog cancel buttons." },
+
+  "buttonClear": "Clear",
+  "@buttonClear": { "description": "Label on the clear-history button in the sidebar." },
+
+  "buttonRetry": "Retry",
+  "@buttonRetry": { "description": "Label on the retry button shown on BLE error screens." },
+
+  "tooltipRenameDevice": "Rename device",
+  "@tooltipRenameDevice": { "description": "Tooltip for the rename icon button in the app bar." },
+
+  "tooltipHideDecoration": "Hide window decoration",
+  "@tooltipHideDecoration": { "description": "Tooltip shown when the native title bar is visible." },
+
+  "tooltipShowDecoration": "Show window decoration",
+  "@tooltipShowDecoration": { "description": "Tooltip shown when the native title bar is hidden." },
+
+  "tooltipHideSidebar": "Hide sidebar",
+  "@tooltipHideSidebar": { "description": "Tooltip on the sidebar toggle strip when the sidebar is open." },
+
+  "tooltipShowSidebar": "Show sidebar",
+  "@tooltipShowSidebar": { "description": "Tooltip on the sidebar toggle strip when the sidebar is closed." },
+
+  "tooltipPause": "Pause",
+  "@tooltipPause": { "description": "Tooltip on the console pause button when the console is live." },
+
+  "tooltipResume": "Resume",
+  "@tooltipResume": { "description": "Tooltip on the console pause button when the console is paused." },
+
+  "controlsPanelLabel": "CONTROLS",
+  "@controlsPanelLabel": { "description": "Section header above the hardware control buttons." },
+
+  "tabHistory": "HISTORY",
+  "@tabHistory": { "description": "Label for the history chart tab in the sidebar." },
+
+  "tabConsole": "CONSOLE",
+  "@tabConsole": { "description": "Label for the console log tab in the sidebar." },
+
+  "statMin": "MIN",
+  "@statMin": { "description": "Label for the minimum value statistic." },
+
+  "statAvg": "AVG",
+  "@statAvg": { "description": "Label for the average value statistic." },
+
+  "statMax": "MAX",
+  "@statMax": { "description": "Label for the maximum value statistic." },
+
+  "compatibleOnly": "Compatible only",
+  "@compatibleOnly": { "description": "Label next to the compatible-devices filter switch." },
+
+  "badgeAc": "AC",
+  "@badgeAc": { "description": "Badge label shown for AC measurement modes." },
+
+  "badgeDc": "DC",
+  "@badgeDc": { "description": "Badge label shown for DC measurement modes." },
+
+  "waitingForData": "Waiting for data...",
+  "@waitingForData": { "description": "Placeholder shown in the history chart before data arrives." },
+
+  "noDataYet": "No data yet...",
+  "@noDataYet": { "description": "Placeholder shown in the console log before data arrives." },
+
+  "renameDialogTitle": "Rename Device",
+  "@renameDialogTitle": { "description": "Title of the rename-device dialog." },
+
+  "renameDialogHint": "Up to 14 characters",
+  "@renameDialogHint": { "description": "Hint text inside the rename text field." },
+
+  "renameDialogValidationNote": "Cannot contain ?, *, @, or comma",
+  "@renameDialogValidationNote": { "description": "Validation note shown below the rename text field." },
+
+  "deviceRenamedSuccess": "Device renamed successfully",
+  "@deviceRenamedSuccess": { "description": "SnackBar message shown after a successful rename." },
+
+  "noCompatibleDevices": "No compatible devices found",
+  "@noCompatibleDevices": { "description": "Primary message when the filter is on but no devices match." },
+
+  "searchingForDevices": "Searching for devices...",
+  "@searchingForDevices": { "description": "Primary message while scanning with no results yet." },
+
+  "compatibleDeviceHint": "Make sure your OWON B41T is powered on,\nor disable the filter to see all devices",
+  "@compatibleDeviceHint": { "description": "Secondary hint when no compatible devices are found." },
+
+  "devicePowerOnHint": "Make sure your OWON B41T is powered on",
+  "@devicePowerOnHint": { "description": "Secondary hint while scanning with no results." }
+}
