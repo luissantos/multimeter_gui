@@ -21,6 +21,7 @@ jobs:
           ditto -c -k --sequesterRsrc --keepParent \
             "build/macos/Build/Products/Release/multimeter_gui.app" \
             multimeter-gui-macos.zip
+          zip multimeter-gui-macos.zip LICENSE
       - uses: actions/upload-artifact@v7
         with:
           name: multimeter-gui-macos
@@ -37,7 +38,9 @@ jobs:
       - run: flutter pub get
       - run: flutter build windows --release
       - name: Package
-        run: Compress-Archive -Path build\windows\x64\runner\Release\* -DestinationPath multimeter-gui-windows.zip
+        run: |
+          Copy-Item LICENSE build\windows\x64\runner\Release\LICENSE
+          Compress-Archive -Path build\windows\x64\runner\Release\* -DestinationPath multimeter-gui-windows.zip
       - uses: actions/upload-artifact@v7
         with:
           name: multimeter-gui-windows
@@ -56,7 +59,9 @@ jobs:
       - run: flutter pub get
       - run: flutter build linux --release
       - name: Package
-        run: tar -czf multimeter-gui-linux.tar.gz -C build/linux/x64/release bundle
+        run: |
+          cp LICENSE build/linux/x64/release/bundle/LICENSE
+          tar -czf multimeter-gui-linux.tar.gz -C build/linux/x64/release bundle
       - uses: actions/upload-artifact@v7
         with:
           name: multimeter-gui-linux
